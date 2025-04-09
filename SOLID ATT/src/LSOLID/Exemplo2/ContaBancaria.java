@@ -7,13 +7,8 @@ public class ContaBancaria {
         saldo += valor;
     }
 
-    public void sacar(double valor) {
-        saldo -= valor;
-    }
-
     public double getSaldo() {
         return saldo;
     }
 }
-
 
